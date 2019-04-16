@@ -23,7 +23,6 @@ int main ()
 		case 10:
 		case 12:
 			cout << "Enter day (use numbers 1-31): "; cin >> day;
-			
 			break;
 				
 					
@@ -104,8 +103,7 @@ int main ()
 		cout << "Invalid Date" << endl;
 		else if (monthNumber==12 && day <0)
 		cout << "Invalid Date" << endl;
-		
-		
+		else
 		cout << month[monthNumber-1] << day << year << endl;	
 	
 	_getch();
